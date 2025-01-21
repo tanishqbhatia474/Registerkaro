@@ -16,7 +16,7 @@ import Stats from './components/Stats';
 import CTA from './components/CTA';
 import Logos from './components/Logos';
 import Footer from './components/Footer';
-
+import WhyRegisterKaro from './components/WhyRegisterKaro';
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
       <TrustedSection />
       <Services />
       <About />
+      <WhyRegisterKaro />
       <VideoIntroductions />
       <HappyClients /> 
       <ProcessSteps /> 
