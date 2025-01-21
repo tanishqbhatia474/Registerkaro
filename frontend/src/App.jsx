@@ -5,7 +5,7 @@ import Header from './components/Header';
 import TrustedSection from './components/TrustedSection';
 import Services from './components/Services';
 import About from './components/About';
-import WhyChoose from './components/Whychoose';
+
 import VideoIntroductions from './components/VideoIntroductions';
  import HappyClients from './components/HappyClients';
 import ProcessSteps from './components/ProcessSteps';
@@ -17,6 +17,7 @@ import Stats from './components/Stats';
 import CTA from './components/CTA';
 import Logos from './components/Logos';
 import Footer from './components/Footer';
+import Whychoose from './components/Whychoose';
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
       <TrustedSection />
       <Services />
       <About />
-      <WhyChoose />
+      <Whychoose />
       <VideoIntroductions />
       <HappyClients /> 
       <ProcessSteps /> 

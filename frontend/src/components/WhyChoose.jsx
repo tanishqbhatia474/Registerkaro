@@ -33,7 +33,7 @@ const features = [
   },
 ];
 
-const WhyChoose = () => {
+const Whychoose = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
       {/* Section Heading */}
@@ -68,4 +68,4 @@ const WhyChoose = () => {
   );
 };
 
-export default WhyChoose;
+export default Whychoose;
