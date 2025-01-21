@@ -16,7 +16,7 @@ import Stats from './components/Stats';
 import CTA from './components/CTA';
 import Logos from './components/Logos';
 import Footer from './components/Footer';
-import Whychoose from './components/Whychoose';
+
 
 function App() {
   return (
@@ -27,7 +27,6 @@ function App() {
       <TrustedSection />
       <Services />
       <About />
-      <Whychoose />
       <VideoIntroductions />
       <HappyClients /> 
       <ProcessSteps /> 
