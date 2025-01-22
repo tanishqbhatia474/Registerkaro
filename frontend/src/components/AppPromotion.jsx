@@ -6,13 +6,13 @@ const AppPromotion = () => {
       <div className="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-center gap-8">
         {/* Left Text Section */}
         <div className="flex-1 text-center lg:text-left">
-          <h2 className="text-3xl font-bold text-white mb-4">
-            Manage Your Services by your Mobile Phone
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4 leading-tight">
+            Manage Your Services by Your Mobile Phone
           </h2>
-          <p className="text-gray-300 mb-6">
+          <p className="text-gray-300 text-sm sm:text-base mb-6">
             Download our app to manage and track your services. Our app enables
             you to stay in touch with our experts and aids you in tracking your
-            progress.
+            progress seamlessly.
           </p>
           {/* App Store Links */}
           <div className="flex justify-center lg:justify-start gap-4">
@@ -43,16 +43,18 @@ const AppPromotion = () => {
 
         {/* Right Image Section */}
         <div className="flex-1">
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center lg:justify-end relative">
+            {/* First Image */}
             <img
-              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmockuphone.com%2Fmodel%2Fiphone-14-pro%2F&psig=AOvVaw0HVGtFieIzNZe6HxOZeOxR&ust=1737565891258000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNidzL-nh4sDFQAAAAAdAAAAABAE" // Replace with actual app screenshot
-              alt=""
-              className="w-40 h-auto lg:w-60"
+              src="https://via.placeholder.com/300x500" // Replace with the actual app screenshot
+              alt="App Screenshot 1"
+              className="w-40 h-auto lg:w-60 rounded-lg shadow-lg"
             />
+            {/* Second Image */}
             <img
-              src="https://via.placeholder.com/300x500" // Replace with actual app screenshot
-              alt=""
-              className="w-40 h-auto lg:w-60 -ml-8"
+              src="https://via.placeholder.com/300x500" // Replace with the actual app screenshot
+              alt="App Screenshot 2"
+              className="w-40 h-auto lg:w-60 -ml-8 rounded-lg shadow-lg"
             />
           </div>
         </div>
