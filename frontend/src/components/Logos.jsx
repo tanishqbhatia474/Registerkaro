@@ -12,15 +12,18 @@ const logos = [
 const Logos = () => {
   return (
     <div className="bg-gray-50 py-8">
-      <div className="max-w-7xl mx-auto px-4 flex justify-center items-center gap-6 flex-wrap">
-        {logos.map((logo, index) => (
-          <img
-            key={index}
-            src={logo}
-            alt={`Logo ${index + 1}`}
-            className="h-20 w-20 m-8"
-          />
-        ))}
+      <div className="max-w-7xl mx-auto px-4">
+        {/* Logo Grid */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 justify-center items-center">
+          {logos.map((logo, index) => (
+            <img
+              key={index}
+              src={logo}
+              alt={`Logo ${index + 1}`}
+              className="h-20 w-20 mx-auto"
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

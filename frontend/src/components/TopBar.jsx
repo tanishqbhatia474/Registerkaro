@@ -3,9 +3,9 @@ import React from "react";
 const TopBar = () => {
   return (
     <div className="bg-blue-900 text-white text-xs sm:text-sm flex flex-col sm:flex-row justify-between items-center px-4 py-2 space-y-2 sm:space-y-0">
-      {/* Left Section: Placeholder or Logo */}
+      {/* Left Section: Logo or Brand Name */}
       <div className="flex justify-center sm:justify-start w-full sm:w-auto">
-        <span className="font-bold">RegisterKaro</span>
+        <span className="font-bold text-lg sm:text-xl">RegisterKaro</span>
       </div>
 
       {/* Right Section: Email, Phone, and Social Icons */}
@@ -27,7 +27,7 @@ const TopBar = () => {
 
         {/* Phone */}
         <div className="flex items-center space-x-2">
-          <span className="material-icons text-lg">phone</span>
+          <span className="material-icons text-lg sm:text-xl">phone</span>
           <a href="tel:+918447746183" className="hover:underline">
             +918447746183
           </a>
