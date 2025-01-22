@@ -1,27 +1,28 @@
-import React from 'react';
-import TopBar from './components/TopBar';
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import TrustedSection from './components/TrustedSection';
-import Services from './components/Services';
-import About from './components/About';
-import VideoIntroductions from './components/VideoIntroductions';
- import HappyClients from './components/HappyClients';
-import ProcessSteps from './components/ProcessSteps';
-import BlogGrid from './components/BlogGrid';
-import Testimonials from './components/Testimonials';
-import AppPromotion from './components/AppPromotion';
-import FAQ from './components/FAQ';
-import Stats from './components/Stats';
-import CTA from './components/CTA';
-import Logos from './components/Logos';
-import Footer from './components/Footer';
-import WhyRegisterKaro from './components/WhyRegisterKaro';
+import React from "react";
+import TopBar from "./components/TopBar";
+import Navbar from "./components/Navbar";
+import Header from "./components/Header";
+import TrustedSection from "./components/TrustedSection";
+import Services from "./components/Services";
+import About from "./components/About";
+import WhyRegisterKaro from "./components/WhyRegisterKaro";
+import VideoIntroductions from "./components/VideoIntroductions";
+import HappyClients from "./components/HappyClients";
+import ProcessSteps from "./components/ProcessSteps";
+import BlogGrid from "./components/BlogGrid";
+import Testimonials from "./components/Testimonials";
+import FAQ from "./components/FAQ";
+import AppPromotion from "./components/AppPromotion";
+import Stats from "./components/Stats";
+import CTA from "./components/CTA";
+import Logos from "./components/Logos";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
     <div>
-     <TopBar />
+      <TopBar />
       <Navbar />
       <Header />
       <TrustedSection />
@@ -29,17 +30,16 @@ function App() {
       <About />
       <WhyRegisterKaro />
       <VideoIntroductions />
-      <HappyClients /> 
-      <ProcessSteps /> 
-      <BlogGrid /> 
-     <Testimonials  />
-     <FAQ />
+      <HappyClients />
+      <ProcessSteps />
+      <BlogGrid />
+      <Testimonials />
+      <FAQ />
       <AppPromotion />
       <Stats />
-      <CTA/>
+      <CTA />
       <Logos />
       <Footer />
-      
     </div>
   );
 }
